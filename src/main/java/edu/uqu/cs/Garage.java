@@ -155,3 +155,4 @@ public void addCar(String model) {
         for (int i = 0; i < countCars; i++) { System.out.println("Car " + (i+1) + ": " + cars[i].getModel()); }
 }
 }
+
