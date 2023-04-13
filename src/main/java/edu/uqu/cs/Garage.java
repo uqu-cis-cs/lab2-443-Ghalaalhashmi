@@ -83,7 +83,6 @@ public void addCar(String model) {
                 cars[countCars].setModel(model);
                 cars[countCars].moveCarIn();
                 countCars++;
-                //System.out.println("Car " + model + " added to the garage.");
             }
         }
     }
@@ -105,7 +104,6 @@ public void addCar(String model) {
         for (int i = 0; i < countCars; i++) {
             if (cars[i].getModel().equals(model)) {
                 cars[i].moveCarOut();
-                //System.out.println("Car " + model + " moved out of the garage.");
                 carExists
                 = true;
                 for (int j = i; j < countCars - 1; j++) { cars[j] = cars[j+1]; }
